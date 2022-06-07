@@ -1,0 +1,23 @@
+线程安全
+连接池管理
+客户端SSL、TLS验证
+支持HTTP和SOCKS代理
+
+request 请求参数
+语法：
+    request(method, url, fields, headers, **)
+必填
+    method：请求方式
+    url：请求地址
+选填
+    headers：请求头信息
+    fields：请求体数据
+    body：指定请求体类型
+    tiemout：设置超时时间
+
+HTTPS 请求默认需要校验证书
+
+PoolManager 的 cert_reqs 参数
+
+"CERT_REQUIRED"：需要校验
+"CERT_NONE"：取消校验

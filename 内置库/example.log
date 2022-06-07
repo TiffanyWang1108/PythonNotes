@@ -1,0 +1,12 @@
+DEBUG:root:This is a debug log message and should go to the logfile
+INFO:root:This is a info log message
+WARNING:root:This is a warning log message
+ERROR:root:This is a error log message and non-ASCII stuff 你好 我是天才
+DEBUG:root:This is a debug log message and should go to the logfile
+INFO:root:This is a info log message
+WARNING:root:This is a warning log message
+ERROR:root:This is a error log message and non-ASCII stuff
+05/27/2022 06:08:21 PM [DEBUG] This is a debug log message and should go to the logfile (LogFile_demo.py:9)
+05/27/2022 06:08:21 PM [INFO] This is a info log message (LogFile_demo.py:10)
+05/27/2022 06:08:21 PM [WARNING] This is a warning log message (LogFile_demo.py:11)
+05/27/2022 06:08:21 PM [ERROR] This is a error log message and non-ASCII stuff (LogFile_demo.py:12)

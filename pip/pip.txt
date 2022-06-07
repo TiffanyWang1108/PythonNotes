@@ -1,0 +1,32 @@
+pip -V ——查看pip版本
+pip help ——查看帮助文档
+pip list ——查看包列表
+pip freeze ——导出包列表
+
+pip install [package_name]--安装
+# 默认安装最新版本
+pip install pytest
+# 安装指定版本
+pip install [package_name]==[version]
+# 从文件中安装
+pip freeze >> requirements.txt
+cat requirements.txt
+pip install -r requirements.txt
+
+# pip 使用镜像加速
+pip install -i 镜像源
+阿里：
+清华：
+豆瓣：
+
+
+
+
+
+
+
+
+
+
+pip install -U [package_name]--升级
+pip uninstall [package_name]——卸载

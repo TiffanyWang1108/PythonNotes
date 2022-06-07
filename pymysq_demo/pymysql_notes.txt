@@ -1,0 +1,39 @@
+Python 的数据库接口标准是 Python DB-API
+PyMySQL 是从 Python 连接到 MySQL 数据库服务器的接口
+PyMySQL 的目标是成为 MySQLdb 的替代品
+官方文档：http://pymysql.readthedocs.io/
+
+host：MySQL 服务器地址
+user：用户名
+password：密码
+database：数据库名称
+charset：编码方式，推荐使用 utf8mb4
+
+# 1.导入库
+import pymysql
+
+# 2.建立连接
+conn = pymysql.connect(host='服务器地址',
+                     user='用户名',
+                     password='密码',
+                     database='数据库名',
+                     charset="utf8mb4")
+# 3.关闭连接
+conn.close()
+
+数据库操作
+  创建表
+  插入记录
+  查询记录
+  更新记录
+  删除记录
+执行事务
+  提交：commit
+  回滚：rollback
+
+
+
+
+
+
+
